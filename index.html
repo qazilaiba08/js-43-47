@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.box{
+    height: 100px;
+    width: 100px;
+ background-color: cadetblue;
+    border: 1px solid black;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+ background-color: cadetblue;
+    border: 1px solid black;
+    margin: 40px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+ background-color: cadetblue;
+    border: 1px solid black;
+    margin: 40px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+ background-color: cadetblue;
+    border: 1px solid black;
+    margin: 40px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+ background-color: cadetblue;
+    border: 1px solid black;
+    margin: 40px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box" onmouseover="console.log('you are inside box');"></div>
+        <div class="box1" tabindex="0" onkeydown="this.style.backgroundColor='purple'"></div>
+        <div class="box2" tabindex="0" onkeypress="this.style.backgroundColor='red';"></div>
+        <div class="box3" tabindex="0" onkeyup="this.style.backgroundColor='yellow';"></div>
+        <div class="box4" onmouseleave="this.style.backgroundColor='grey';"></div>
+        <input type="button" value="Click" onClick="alert('Hello world!');" >
+    </div>
+    <!-- mouse events -->
+    <button  onclick="console.log('You can click me many times');">click on</button>
+    <button  ondblclick="console.log('You can click me 2 times');">click  2x on</button>
+<a href="#" onclick="alert('hi')">Click</a>
+
+    <script>
+// function sayHi(){
+//     alert("Hello WORLD!")
+// }
+// sayHi()
+
+// function sayBy(){
+//     alert("Javascript")
+// }
+// sayBy()
+
+// Chap events:link
+//if u sreach
+    </script>
+    
+</body>
+</html>
